@@ -1,6 +1,11 @@
-import { Text } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react";
+import CommentCard from "./components/CommentCard";
 function App() {
-  return <Text>Some went wrong</Text>;
+  return (
+    <Container maxW="3xl" centerContent>
+      <CommentCard />
+    </Container>
+  );
 }
 
 export default App;
